@@ -1,0 +1,24 @@
+.imgContainer {
+  height: var(--size);
+  width: var(--size);
+}
+
+.img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 1px solid lightgray;
+}
+
+.img:hover {
+  cursor: pointer;
+  transform: scale(1.09);
+}
+
+.modalList {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+}
