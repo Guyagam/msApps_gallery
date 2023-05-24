@@ -41,7 +41,7 @@ function App() {
           Prev
         </Button>
         <Button onClick={() => setCategoryModalOpen(true)}>
-          Choose parameters
+          Choose category and sorting
         </Button>
         <Button onClick={() => dispatch({ type: GALLERY_ACTIONS.NEXT_PAGE })}>
           Next
@@ -75,8 +75,8 @@ function App() {
             </button>
           ))}
         </div>
-      </Modal>
-    </div>
+      </Modal >
+    </div >
   );
 }
 
